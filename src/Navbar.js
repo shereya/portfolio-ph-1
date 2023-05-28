@@ -18,7 +18,7 @@ const Navbar = () =>{
     }
     return(
         <nav>
-            <Link className="name" to="/home">Shereya Philip</Link>
+            <Link className="name" to="/portfolio-ph-1">Shereya Philip</Link>
             <ul>
                 <li className="left">
                     <Link to="/about" className="about-nav" onMouseOver={handleMouseOverHome} onMouseOut={handleMouseOutHome}>{aboutMe}</Link>
